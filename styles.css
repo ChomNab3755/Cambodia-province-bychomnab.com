@@ -102,7 +102,7 @@ body {
 }
 
 .dropdown-content.show {
-    display:inline-block;
+    display: inline-block;
     opacity: 1;
     transform: translateY(0);
 }
@@ -120,10 +120,10 @@ body {
 .map {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap-reverse;
     align-items: center;
     padding: 10px 10px;
     text-align: justify;
-    flex-wrap: wrap-reverse;
 }
 
 .text {
