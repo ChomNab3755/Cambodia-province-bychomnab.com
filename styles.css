@@ -61,6 +61,7 @@ body {
     font-family: khmer os battambang;
     flex: 1 1 200px;
     /* base size and responsive */
+    margin-left: 20px;
 }
 
 .dropdown-content {
