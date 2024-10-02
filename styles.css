@@ -123,6 +123,7 @@ body {
     align-items: center;
     padding: 10px 10px;
     text-align: justify;
+    flex-wrap: wrap-reverse;
 }
 
 .text {
