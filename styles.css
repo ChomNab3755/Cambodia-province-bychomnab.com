@@ -43,6 +43,7 @@ body {
     display: inline-block;
     flex: 1 1 200px;
     /* base size and responsive */
+    margin-left: 20px;
 }
 
 .dropbtn {
@@ -61,7 +62,6 @@ body {
     font-family: khmer os battambang;
     flex: 1 1 200px;
     /* base size and responsive */
-    margin-left: 20px;
 }
 
 .dropdown-content {
@@ -75,7 +75,6 @@ body {
     transform: translateY(-10px);
     transition: opacity 0.3s ease, transform 0.3s ease;
     font-family: khmer os battambang;
-    margin-left: 20px;
 }
 
 .dropdown-content a {
@@ -84,10 +83,15 @@ body {
     text-decoration: none;
     display: block;
     transition: background-color 0.3s;
+
 }
 
 .dropdown-content a:hover {
     background-color: #f1f1f1;
+    color: black;
+    background-color: #0ad1c8;
+    box-shadow: 0 0 10px #1e90ff, 0 0 20px #1e90ff, 0 0 30px #0ad1c8;
+    color: white;
 }
 
 .dropdown:hover .dropdown-content {
@@ -199,6 +203,7 @@ input[type="text"] {
     overflow: hidden;
     border-radius: 10px;
     padding: 20px 20px;
+    flex-wrap: center;
 }
 
 .image1 img {
@@ -209,6 +214,13 @@ input[type="text"] {
     -o-border-radius: 10px;
 }
 
+.image3 {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
 @media only screen and (max-witdth: 750px) {
     .bar4 {
         flex-direction: column;
