@@ -8,7 +8,14 @@ body {
     text-align: center;
     font-weight: bold;
 }
-
+.khmer{
+    border-radius: 5px, 5px;
+    /*Addsomepaddingforaesthetics*/
+    -webkit-border-radius: 5px, 5px;
+    -moz-border-radius: 5px, 5px;
+    -ms-border-radius: 5px, 5px;
+    -o-border-radius: 5px, 5px;
+}
 .cam {
     font-family: khmer os battambang;
     font-size: 18px;
